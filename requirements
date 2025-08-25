@@ -3,4 +3,10 @@ torch == 2.8.0
 datasets==4.0.0
 scikit-learn == 1.7.1
 numpy == 2.3.2
+pandas == 2.3.1
 python-dotenv == 1.1.1
+llama-index == 0.12.52
+langchain == 0.3.27
+langchain-community == 0.3.27
+llama-index-embeddings-langchain == 0.3.0
+sentence-transformers 5.1.0
