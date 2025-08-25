@@ -9,4 +9,5 @@ llama-index == 0.12.52
 langchain == 0.3.27
 langchain-community == 0.3.27
 llama-index-embeddings-langchain == 0.3.0
-sentence-transformers 5.1.0
+sentence-transformers == 5.1.0
+
