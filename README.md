@@ -2,12 +2,13 @@
 Repository for the final project of "Practical Machine Learning for Natural Language Processing" (University of Vienna, Summer Semester 2024).
 
 # Project Overview
-This project presents a comparative analysis of modern Natural Language Processing (NLP) methodologies for the task of detecting sexist language in tweets. It evaluates the performance and cost of four distinct approaches:
+This project presents a comparative analysis of modern Natural Language Processing (NLP) methodologies for the task of detecting sexist language in tweets. It evaluates the performance and cost of five distinct approaches:
 
   1. Fine-Tuned BERT Model for sequence classification. ('germeval.ipynb')
   2. Zero-Shot and Few-Shot Prompting using DeepSeek and GPT APIs. ('comparisonAPI.ipynb')
   3. Retrieval-Augmented Generation (RAG) using a VectorStoreIndex. ('comparisonVectorStoreIndex.ipynb')
   4. Retrieval-Augmented Generation (RAG) using a KeywordTableIndex. ('comparisonKeywordTableIndex.ipynb')
+  5. Combining RAG pipelines with few shot Prompting. (comparisonAPIRAG.ipynb)
 
 # Motivation 
 Detecting sexist language is a key challenge in studying online discourse. Automated methods can help researchers analyze large-scale corpora of social media data to understand the prevalence and nature of sexist rhetoric. However, the nuanced and context-dependent nature of such language makes it a difficult classification problem. 
