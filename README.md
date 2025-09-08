@@ -19,8 +19,9 @@ The performance of each method was evaluated and compared on a standardized data
   2. API Prompting (DeepSeek & GPT): Leveraged zero-shot and few-shot prompting strategies to query large language models via their APIs for classification, testing their ability to generalize with little to no task-specific training.
   3. RAG Pipeline (VectorStoreIndex): Implemented a RAG system using LlamaIndex's VectorStoreIndex to retrieve the most semantically similar examples from the training set to provide context for an LLM's classification decision.
   4. RAG Pipeline (KeywordTableIndex): Implemented an alternative RAG system using a KeywordTableIndex to retrieve examples based on keyword matching, providing a different retrieval strategy for comparison.
+  5. RAG Pipelines (3. and 4.) combined with API Prompting (DeepSeek & GPT) (2.).
 
 # Findings
-
+Best overall performance was achieved by models relying on the API (specifically DeepSeek) both with and without RAG. The fine-tuned BERT models achieved average results, while models relying only on RAG yielded the lowest F1-scores.
 
 
